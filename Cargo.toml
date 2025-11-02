@@ -12,8 +12,8 @@ keywords = ["rendering", "uv", "unwrap", "xatlas"]
 categories = ["rendering"]
 include = [
     "src/*.rs",
-    "vendor/xatlas.cpp",
-    "vendor/xatlas.h",
+    "vendor/source/xatlas/xatlas.cpp",
+    "vendor/source/xatlas/xatlas.h",
     "build.rs",
     "Cargo.toml",
 ]
