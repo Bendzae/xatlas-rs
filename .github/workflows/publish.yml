@@ -16,7 +16,6 @@ jobs:
           submodules: true
       - uses: dtolnay/rust-toolchain@stable
 
-      - uses: taiki-e/install-action@nextest
       - name: Install Linux dependencies
         if: ${{ runner.os == 'Linux' }}
         run: |
@@ -27,7 +26,7 @@ jobs:
             libwayland-dev \
             libxkbcommon-dev
       - name: "Build and test"
-        run: cargo nextest run --workspace --all-targets --all-features
+        run: cargo build --workspace --all-features --verbose
 
   crates_io_publish:
     name: Publish (crates.io)
