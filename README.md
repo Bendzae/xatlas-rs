@@ -6,6 +6,8 @@ xatlas-rs
 [![](https://tokei.rs/b1/github/Jasper-Bekkers/xatlas-rs)](https://github.com/Jasper-Bekkers/xatlas-rs)
 ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
+**Forked to publish new version to crates.io since orgiginal is unmaintained**
+
 This crate is a wrapper around the [xatlas](https://github.com/jpcy/xatlas) library.
 
 A cleaned up version of [thekla_atlas](https://github.com/Thekla/thekla_atlas).
@@ -22,7 +24,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-xatlas-rs = "0.1.3"
+xatlas-rs-v2 = "0.1.4"
 ```
 
 ## License
