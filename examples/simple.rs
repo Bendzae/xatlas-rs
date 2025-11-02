@@ -1,4 +1,4 @@
-use xatlas_rs::*;
+use xatlas_rs_v2::*;
 
 fn main() {
     let vertices = [
